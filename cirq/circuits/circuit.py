@@ -982,7 +982,11 @@ class Circuit(ops.ParameterizableEffect):
                 the circuit are ignored instead of causing the method to
                 fail.
             ext: The extensions to use when attempting to cast operations into
+<<<<<<< HEAD
                 CompositeOperation instances.
+=======
+                KnownMatrix instances.
+>>>>>>> f273cb8913be339211f059c439107ac4003b0262
             dtype: The numpy dtype for the returned unitary. Must be a complex
                 dtype.
 
