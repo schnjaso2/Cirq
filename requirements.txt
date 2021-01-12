@@ -9,3 +9,4 @@ requests~=2.18
 sortedcontainers~=2.0
 scipy
 typing_extensions
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
