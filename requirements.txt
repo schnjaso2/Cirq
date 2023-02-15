@@ -9,3 +9,6 @@ requests~=2.18
 sortedcontainers~=2.0
 scipy
 typing_extensions
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
